@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Sayangkuu <3</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            overflow: hidden;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 600px;
+            padding: 40px 25px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #ff4f81;
+            font-size: 38px;
+            margin-bottom: 20px;
+        }
+
+        .love {
+            font-size: 45px;
+            animation: detak 1s infinite;
+        }
+
+        p {
+            color: #555;
+            font-size: 20px;
+            line-height: 1.6;
+        }
+
+        .birthday {
+            font-size: 27px;
+            font-weight: bold;
+            color: #ff4f81;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 13px 25px;
+            border: none;
+            border-radius: 30px;
+            background: #ff4f81;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ff2f68;
+            transform: scale(1.05);
+        }
+
+        @keyframes detak {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .heart {
+            position: absolute;
+            font-size: 25px;
+            animation: jatuh 5s linear infinite;
+        }
+
+        @keyframes jatuh {
+            0% {
+                transform: translateY(-100px);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hati yang jatuh -->
+    <div class="heart" style="left: 10%;">??</div>
+    <div class="heart" style="left: 25%; animation-delay: 1s;">??</div>
+    <div class="heart" style="left: 45%; animation-delay: 2s;">??</div>
+    <div class="heart" style="left: 65%; animation-delay: 0.5s;">??</div>
+    <div class="heart" style="left: 85%; animation-delay: 1.5s;">??</div>
+
+    <div class="container">
+
+        <div class="love">Forr My Princess</div>
+
+        <h1>Happy Birthday Sayangkuu</h1>
+
+        <p class="birthday">
+            Inii harii kamuu bangett dehh 
+        </p>
+
+        <p>
+            Selamat ulang tahun untuk orang yang sangat berarti buat aku. 
+            Semoga hari ini dipenuhi kebahagiaan, senyuman, dan hal-hal 
+            indah yang kamu suka. ??
+        </p>
+
+        <p>
+            Semoga semua yang kamu harapkan bisa tercapai.
+            Tetap jadi kamu yang aku kenal dan sayang. ??
+        </p>
+
+        <button onclick="alert('I Love Youu Sayangkuu >_<')">
+            Klik Aku Bubbb 
+        </button>
+
+    </div>
+
+</body>
+</html>
